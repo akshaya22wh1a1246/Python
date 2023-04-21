@@ -1,0 +1,6 @@
+ename=input("Enter employee name:")
+address=input("Enter address")
+email=input("Enter email")
+phn=input("Enter mobile no:")
+print("Details of a person:")
+print("Employee Name {} \n  address {} \n e-mail {} \n phone {}".format(ename,address,email,phn)) 

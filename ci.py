@@ -1,0 +1,5 @@
+p=int(input("Enter principle"))
+t=int(input("Enter time period"))
+r=int(input("Enter rate of intrest"))
+ci=p*pow((1+r/100),t)
+print("Compound intrest={}".format(ci))
